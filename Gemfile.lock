@@ -48,6 +48,7 @@ GEM
     mail (2.5.4)
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
+    melonjs-generator (0.3)
     mime-types (1.25)
     minitest (4.7.5)
     multi_json (1.8.1)
@@ -116,6 +117,7 @@ DEPENDENCIES
   coffee-rails (= 4.0.0)
   jbuilder (= 1.0.2)
   jquery-rails (= 3.0.4)
+  melonjs-generator
   pg (= 0.15.1)
   rails (= 4.0.0)
   rails_12factor (= 0.0.2)

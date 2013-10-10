@@ -1,12 +1,10 @@
 
 <% content_for :javascript_includes do %>
-  	<%= javascript_include_tag "/assets/games/boilerplate-master/lib/melonJS-0.9.8-min.js" %>
-	<%= javascript_include_tag "/assets/games/boilerplate-master/lib/plugins/debugPanel.js" %>
-	<%= javascript_include_tag "/assets/games/boilerplate-master/js/game.js" %>
-	<%= javascript_include_tag "/assets/games/boilerplate-master/js/resources.js" %>
-	<%= javascript_include_tag "/assets/games/boilerplate-master/js/entities/entities.js" %>
-	<%= javascript_include_tag "/assets/games/boilerplate-master/js/screens/title.js" %>
-	<%= javascript_include_tag "/assets/games/boilerplate-master/js/screens/play.js"%>
+	<%= javascript_include_tag "tutorial/js/game.js" %>
+	<%= javascript_include_tag "tutorial/js/resources.js" %>
+	<%= javascript_include_tag "tutorial/js/entities/entities.js" %>
+	<%= javascript_include_tag "tutorial/js/screens/title.js" %>
+	<%= javascript_include_tag "tutorial/js/screens/play.js"%>
 	<title>melonJS Template</title>
 	<meta id="viewport" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	<meta name="apple-mobile-web-app-capable" content="yes">
@@ -14,8 +12,9 @@
 <% end %>
         <!-- Canvas placeholder -->
 		<div id="screen"></div>
-		<p color="White">HELLO</p>
 		<!-- Bootstrap & Mobile optimization tricks -->
+
+
 		<script type="text/javascript">
 			window.onReady(function onReady() {
 				game.onload();
