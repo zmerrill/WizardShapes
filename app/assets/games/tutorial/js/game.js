@@ -35,7 +35,7 @@ var game = {
     "loaded" : function () {
         me.state.set(me.state.MENU, new game.TitleScreen());
         me.state.set(me.state.PLAY, new game.PlayScreen());
-        alert("CREATING PLAYER");
+
         // add our player entity in the entity pool
         me.entityPool.add("mainPlayer", game.PlayerEntity);
         
