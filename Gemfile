@@ -3,10 +3,15 @@ ruby '1.9.3'
 #ruby-gemset=railstutorial_rails_4_0
 
 gem 'rails', '4.0.0'
-
+gem 'bootstrap-sass', '2.3.2.0'
+gem 'will_paginate', '3.0.4'
+gem 'bootstrap-will_paginate', '0.0.9'
+gem 'pg', '0.15.1'
 group :development do
   gem 'sqlite3', '1.3.8'
 end
+
+
 
 gem 'melonjs-generator'
 gem 'sass-rails', '4.0.0'
