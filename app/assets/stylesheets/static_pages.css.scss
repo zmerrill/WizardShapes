@@ -1,7 +1,48 @@
+ @font-face
+{
+    font-family: caveman;
+    src: local("caveman"), url("/assets/fonts/caveman.ttf") format("truetype");
+}
+
+ @font-face
+{
+    font-family: wedgie;
+    src: local("wedgie"), url("/assets/fonts/wedgie.ttf") format("truetype");
+}
+
+#walker {
+    position: relative;
+    -webkit-animation: walkdude 20s infinite;
+    animation: walkdude 20s infinite;
+}
+@-webkit-keyframes walkdude {
+    0% {
+        left:90%;
+    }
+    50%{
+        left:0%
+    }
+    100% {
+        left: 90%;
+    }
+}
+@keyframes walkdude {
+    0% {
+        left:90%;
+    }
+    50%{
+        left:0%
+    }
+    100% {
+        left: 90%;
+    }
+}
+
 @import "bootstrap";
 
 body {
-    background-color: #000;
+    background-image: url(black_lozenge.png);
+    background-repeat:repeat;
     color: #fff;
 
     /* Allow mouse dragging. */
@@ -32,4 +73,19 @@ body {
 	image-rendering: -webkit-optimize-contrast;
 	image-rendering: optimize-contrast;
 	-ms-interpolation-mode: nearest-neighbor;
+}
+
+.turd {
+    font-family: wedgie;
+    font-size: 4.5em;
+}
+
+.solid-black{
+    background-image: none;
+    background-color: #0D0D0D;
+}
+
+.copperplate{
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-size: 1.5em;
 }
