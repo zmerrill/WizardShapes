@@ -10,6 +10,12 @@
     src: local("wedgie"), url("/assets/fonts/wedgie.ttf") format("truetype");
 }
 
+ @font-face
+{
+    font-family: oxy;
+    src: local("oxy"), url("/assets/fonts/OXYGENE1.ttf") format("truetype");
+}
+
 #walker {
     position: relative;
     -webkit-animation: walkdude 20s infinite;
@@ -86,6 +92,6 @@ body {
 }
 
 .copperplate{
-    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-family: 'Georgia', Helvetica, Arial, sans-serif;
     font-size: 1.5em;
 }

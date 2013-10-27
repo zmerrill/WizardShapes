@@ -2,6 +2,10 @@ WizardShapes::Application.routes.draw do
   root  'static_pages#home'
 
   get 'melon' => 'game_pages#melonjs'
+  get 'about' => 'static_pages#about'
+  get 'games' => 'static_pages#games'
+  get 'tech' => 'static_pages#tech'
+  get 'tutorials' => 'static_pages#tutorials'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
